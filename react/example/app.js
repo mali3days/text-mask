@@ -8,7 +8,8 @@ export default () => (
 
       <div className='col-sm-10'>
         <MaskedInput
-          mask={['(', /[1-9]/, /\d/, /\d/, ')', ' ', /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/]}
+          mask={[/\d/, /\d/, '/', /\d/, /\d/, '/', /\d/, /\d/, /\d/, /\d/]}
+          placeholder='dd/mm/yyyy'
           className='form-control'
           id='1'
           type='text'
